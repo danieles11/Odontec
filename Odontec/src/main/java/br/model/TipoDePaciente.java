@@ -32,10 +32,10 @@ public class TipoDePaciente {
 	@Override
 	public int hashCode() {
 		final int prime = 31;
-		int result = 1;
-		result = prime * result + (int) (id ^ (id >>> 32));
-		result = prime * result + ((tipo == null) ? 0 : tipo.hashCode());
-		return result;
+		int result2 = 1;
+		result2 = prime * result2 + (int) (id ^ (id >>> 32));
+		result2 = prime * result2 + ((tipo == null) ? 0 : tipo.hashCode());
+		return result2;
 	}
 
 	@Override

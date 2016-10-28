@@ -11,6 +11,7 @@ public class TipoDePaciente {
 	@GeneratedValue
 	private long id;
 	
+	//o tipo de paciente
 	private String tipo;
 
 	public long getId() {

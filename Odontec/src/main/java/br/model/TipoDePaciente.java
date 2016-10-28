@@ -28,35 +28,7 @@ public class TipoDePaciente {
 	public void setTipo(String tipo) {
 		this.tipo = tipo;
 	}
-
-	@Override
-	public int hashCode() {
-		final int prime = 31;
-		int result2 = 1;
-		result2 = prime * result2 + (int) (id ^ (id >>> 32));
-		result2 = prime * result2 + ((tipo == null) ? 0 : tipo.hashCode());
-		return result2;
-	}
-
-	@Override
-	public boolean equals(Object obj) {
-		if (this == obj)
-			return true;
-		if (obj == null)
-			return false;
-		if (getClass() != obj.getClass())
-			return false;
-		TipoDePaciente other = (TipoDePaciente) obj;
-		if (id != other.id)
-			return false;
-		if (tipo == null) {
-			if (other.tipo != null)
-				return false;
-		} else if (!tipo.equals(other.tipo))
-			return false;
-		return true;
-	}
-
+	
 	@Override
 	public String toString() {
 		return tipo;

@@ -1,4 +1,4 @@
-package br.model.DAO;
+package br.model.dao;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
